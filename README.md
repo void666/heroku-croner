@@ -1,2 +1,2 @@
 # heroku-croner
-croner
+

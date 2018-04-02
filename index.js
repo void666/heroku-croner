@@ -6,7 +6,8 @@ class script {
         return cmd.get(`npm install in-memory-queue
         npm install fs.promiser
         npm install fs.proms
-        npm i promise-request-retry`, function (err, data) {
+        npm i promise-request-retry
+        npm install trie-d`, function (err, data) {
             if (!err) {
                 console.log('Installation done :\n\n', data);
                 // process.exit(0);
